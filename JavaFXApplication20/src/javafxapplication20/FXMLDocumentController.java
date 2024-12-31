@@ -27,6 +27,11 @@ public class FXMLDocumentController implements Initializable {
         label.setText("Hello YOUSSIF!");
     }
     
+    private void signin(){
+            System.out.println("from sign in branch");
+            System.out.println("By: Ayat");
+    }
+      
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
